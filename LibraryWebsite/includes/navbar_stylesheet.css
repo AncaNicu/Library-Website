@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* pt navbar 1 si navbar 2 */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex; /* sa fie afisate in linie butoanele din navbar */
+  align-items: center; /* elementele din navbar sunt centrate vertical */
+  height: 60px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropbtn, .dropbtn2 {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 2px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #9ea9f0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown:hover .dropbtn2 {
+    background-color: #123;
+    color: white;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar2 {
+    overflow: hidden;
+    background-color: #3039a1;
+    height: 60px;
+}
+
+.navbar2 {
+  overflow: hidden;
+  background-color: #3039a1;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+/* pt partea de search */
+.search-container {
+    display: flex;
+    margin-left: auto;
+}
+
+#search_data,
+#searchInput {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+}
+
+#searchButton {
+    padding: 10px;
+    background-color: #3039a1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px 10px;
+}
+
+#searchButton:hover {
+    background-color: #8cabff;
+}
+
+/* mesajul de welcome din navbar 2 */
+.welcome-msg-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    color: white;
+}
+
+/* pt autocomplete la campul search */
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* Adjust the styles based on your preference */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 0;
+}
+
+.ui-menu-item {
+    padding: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.ui-menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.search_form {
+    display: flex;
+}
+
+/* pt iconita shopping cart */
+.cart_icon {
+    color: white;
+}

@@ -1,0 +1,104 @@
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1; 
+    max-height: 65vh;  /* seteaza o inaltime maxima */
+    overflow-y: auto;  /* pt. a putea face scroll la formular */
+    margin: 20px;
+    text-align: center;
+}
+
+.left img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.admin_actions_btn {
+    padding: 10px;
+    background-color: #3039a1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.admin_actions_btn:hover {
+    background-color: #8cabff;
+}
+
+h2 {
+    color: #3039a1;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+}
+
+input[type="file"] {
+    display: none; /*ascunde msg default, cand s-a incarcat fisierul*/
+}
+
+.file-input-group {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    overflow: hidden;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.right {
+    padding: 30px;
+}
+
+#book_cover_file-name-placeholder,
+#author-image-file-name-placeholder,
+#pdf-file-name-placeholder {
+    margin: 10px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.file-input-label {
+    padding: 10px;
+    background-color: #3039a1;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 40%;
+    margin: 10px 10px;
+}
+
+.file-input-label:hover {
+    background-color: #8cabff;
+}
